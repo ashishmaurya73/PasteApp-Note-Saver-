@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { removeFromPastes } from '../redux/pasteSlice';
 import toast from 'react-hot-toast';
 import { Calendar, Copy, Eye, PencilLine, Trash2 } from 'lucide-react';
-import {FormatDate} from "../utlis/FormatDate"
+import {FormatDate} from "../utlis/formatDate"
 
 const Paste = () => {
 
